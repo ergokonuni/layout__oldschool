@@ -1,0 +1,27 @@
+// Header
+.header
+	width: 100%
+	height: $header_height
+	line-height: $header_height
+	border-bottom: 1px solid rgba(255,255,255, .1)
+	color: rgba(255,255,255, .22)
+	position: absolute
+	left: 0
+	top: 0
+	user-select: none
+	text-align: center
+	//flex: 0 1 auto
+	//order: 5
+	.container
+		position: relative
+		min-height: 100%
+	a
+		display: inline-block
+		color: rgba(255,255,255, .22)
+		padding: 0 .75em
+		font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif
+		font-size: .8em
+		text-transform: uppercase
+		text-decoration: none
+		&:hover
+			color: rgba(255,255,255, .5)
